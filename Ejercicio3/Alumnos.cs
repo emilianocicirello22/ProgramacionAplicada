@@ -172,11 +172,11 @@ namespace Ejercicio3
 
             if (Aprobado())
             {
-                mensaje = $"El alumno {this.nombre} aprobo esta aprobado";
+                mensaje = $"El alumno {getNombre()} aprobo esta aprobado";
             }
             else
             {
-                mensaje = $"El alumno {this.nombre} esta reprobado";
+                mensaje = $"El alumno {getNombre()} esta reprobado";
             }
 
             return $"{mensaje}. Su promedio fue de: {Promedio()}";
