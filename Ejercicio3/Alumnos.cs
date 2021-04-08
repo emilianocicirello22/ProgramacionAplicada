@@ -149,7 +149,7 @@ namespace Ejercicio3
         //Funcion que calcula y retorna el promedio del alumno
         public double Promedio()
         {
-            return (this.nota1 + this.nota2 + this.nota3 + this.nota4 + this.nota5 + this.nota6 + this.nota7 + this.nota8 + this.nota9 + this.nota10 / 10);
+            return ((this.nota1 + this.nota2 + this.nota3 + this.nota4 + this.nota5 + this.nota6 + this.nota7 + this.nota8 + this.nota9 + this.nota10) / 10);
         }
 
         //Funcion que calcula si el alumno esta aprobado
@@ -172,7 +172,7 @@ namespace Ejercicio3
 
             if (Aprobado())
             {
-                mensaje = $"El alumno {getNombre()} aprobo esta aprobado";
+                mensaje = $"El alumno {getNombre()} esta aprobado";
             }
             else
             {

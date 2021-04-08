@@ -6,7 +6,7 @@ namespace Ejercicio3
     {
         static void Main(string[] args)
         {
-            Alumnos a = new Alumnos("Pedro Marmol", 3, 6, 7, 8, 3, 4, 6, 7, 8, 10);
+            Alumnos a = new Alumnos("Pedro Marmol", 4, 6, 7, 8, 4, 4, 6, 7, 8, 10);
 
             Console.WriteLine(a.ToString());
         }
