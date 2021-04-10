@@ -2,7 +2,7 @@
 
 namespace Ejercicio4
 {
-    class Program
+    class EjecutoraCuadrado
     {
         static void Main(string[] args)
         {
