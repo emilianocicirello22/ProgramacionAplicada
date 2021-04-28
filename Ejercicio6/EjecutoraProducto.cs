@@ -40,7 +40,7 @@ namespace Ejercicio6
 
                                     Console.WriteLine("Ingrese punto de pedido");
                                     p.setPuntoPedido(int.Parse(Console.ReadLine()));
-
+                                    
                                     do
                                     {
                                         Console.WriteLine("Ingrese maximo de stock permitido");

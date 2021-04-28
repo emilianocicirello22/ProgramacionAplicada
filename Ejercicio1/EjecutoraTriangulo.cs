@@ -20,6 +20,8 @@ namespace Ejercicio1
             Console.WriteLine("Ingrese el valor de la altura");
             t.setAltura(int.Parse(Console.ReadLine()));
 
+            
+
 
             Console.WriteLine(t.ToString());
         }
