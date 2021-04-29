@@ -13,9 +13,9 @@ namespace Ejercicio_7
 
         public double LadoAltura { get => ladoAltura; set => ladoAltura = value; }
 
-        public abstract double Superficie();        
+        public abstract double Superficie();
 
-        public abstract double Perimetro();       
+        public abstract double Perimetro();
 
         public override string ToString()
         {
