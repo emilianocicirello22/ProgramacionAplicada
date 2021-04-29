@@ -6,6 +6,7 @@ namespace Ejercicio_7
     {
         static void Main(string[] args)
         {
+   
             Cuadrado objcuadrado = new Cuadrado();
 
             Console.WriteLine(objcuadrado.ToString());
@@ -17,6 +18,11 @@ namespace Ejercicio_7
             Triangulo objtriangulo = new Triangulo();
 
             Console.WriteLine(objtriangulo.ToString());
+   
+
+            Circulo objcirculo = new Circulo();
+                        
+            Console.WriteLine(objcirculo.ToString());
         }
     }
 }
