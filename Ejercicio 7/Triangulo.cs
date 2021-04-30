@@ -35,7 +35,7 @@ namespace Ejercicio_7
 
         public override string ToString()
         {
-            return $"Lado A: {this.lado1}, Lado B: {this.lado2}, {base.ToString()}";
+            return $"Triangulo: Lado A: {this.lado1}, Lado B: {this.lado2}, {base.ToString()}";
         }
     }
 }

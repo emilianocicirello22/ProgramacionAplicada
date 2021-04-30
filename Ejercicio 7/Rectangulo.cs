@@ -27,7 +27,7 @@ namespace Ejercicio_7
 
         public override string ToString()
         {
-            return $"{base.ToString()}";
+            return $"Rectangulo: {base.ToString()}";
         }
     }
 }

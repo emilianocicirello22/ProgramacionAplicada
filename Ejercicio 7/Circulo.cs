@@ -27,7 +27,7 @@ namespace Ejercicio_7
 
         public override string ToString()
         {
-            return $"Radio: {this.radio}, La superficie es: {Superficie()}, y su Perimetro es: {Perimetro()}";
+            return $"Circulo: Radio: {this.radio}, La superficie es: {Superficie()}, y su Perimetro es: {Perimetro()}";
         }
     }
 }
