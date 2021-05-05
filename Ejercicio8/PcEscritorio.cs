@@ -33,6 +33,8 @@ namespace Ejercicio8
 
             Console.WriteLine("Indique tamaño del disco rigido");
             this.tamanioDisco = int.Parse(Console.ReadLine());
+
+            Equipo = "PC de escritorio";
         }
 
         public override string ToString()

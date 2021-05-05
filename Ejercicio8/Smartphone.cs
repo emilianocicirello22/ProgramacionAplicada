@@ -24,11 +24,13 @@ namespace Ejercicio8
 
             Console.WriteLine("Ingrese Cantidad de frecuencias soportadas");
             this.cantidadFrecuencias = int.Parse(Console.ReadLine());
+
+            Equipo = "Smartphone";
         }
 
         public override string ToString()
         {
-            return $"{base.ToString()}\nTipo de pantalla: {this.tipoPantalla}\nTamaño de pantalla: {this.tamanioPantalla} pulgadas\nChip: {this.cantidadChip}\nFrecuencia: {this.cantidadFrecuencias}\n";
+            return $"{base.ToString()}Tipo de pantalla: {this.tipoPantalla}\nTamaño de pantalla: {this.tamanioPantalla} pulgadas\nChip: {this.cantidadChip}\nFrecuencia: {this.cantidadFrecuencias}\n";
         }
     }
 }

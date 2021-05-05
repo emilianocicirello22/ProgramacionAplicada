@@ -27,6 +27,7 @@ namespace Ejercicio8
             Console.WriteLine("Ingrese cantidad de teclas");
             this.cantidadTeclas = int.Parse(Console.ReadLine());
 
+            Equipo = "All in one";
         }
 
         public override string ToString()

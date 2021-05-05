@@ -33,6 +33,7 @@ namespace Ejercicio8
             Console.WriteLine("Ingrese cantidad de teclas");
             this.cantidadTeclas = int.Parse(Console.ReadLine());
 
+            Equipo = "Notebook";
         }
 
         public override string ToString()
@@ -47,7 +48,7 @@ namespace Ejercicio8
                 mensajeHDD += "No posee HDD";
             }
 
-            return $"{base.ToString()}\nTipo de pantalla: {this.tipoPantalla}\nTamaño de pantalla: {this.tamanioPantalla} pulgadas\n{mensajeHDD}\nTamaño de disco: {this.tamanioDisco}\nCantidad de teclas: {this.cantidadTeclas}";
+            return $"{base.ToString()}Tipo de pantalla: {this.tipoPantalla}\nTamaño de pantalla: {this.tamanioPantalla} pulgadas\n{mensajeHDD}\nTamaño de disco: {this.tamanioDisco}\nCantidad de teclas: {this.cantidadTeclas}\n";
         }
     }
 }

@@ -10,11 +10,13 @@ namespace Ejercicio8
         private string CPU;
         private float velocidad;
         private int tamañoRam;
+        private string equipo;
 
         public static int Contador { get => contador; set => contador = value; }
         public string CPU1 { get => CPU; set => CPU = value; }
         public float Velocidad { get => velocidad; set => velocidad = value; }
         public int TamañoRam { get => tamañoRam; set => tamañoRam = value; }
+        public string Equipo { get => equipo; set => equipo = value; }
 
         public Computadora()
         {
@@ -33,7 +35,7 @@ namespace Ejercicio8
 
         public override string ToString()
         {
-            return $"Microprocesador: {this.CPU}\nVelocidad: {this.velocidad}GHz\nRam: {this.tamañoRam} GB\n";
+            return $"*****Equipo:{this.equipo}*****\nMicroprocesador: {this.CPU}\nVelocidad: {this.velocidad}GHz\nRam: {this.tamañoRam} GB\n";
         }
     }
 }
